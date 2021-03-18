@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Dashboard Template · Bootstrap v4.6</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/dashboard/">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0 shadow" id="nav1">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#"><img src="./assets/bukit-logo.PNG" alt="" height="40px"
+        width="120px"></a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+      data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div pre class="input-group tab">
+      <div class="input-group-prepend">
+        <select class="filter" id="btnGroupDrop1">
+          <option value="none" selected disabled hidden>&nbsp;&nbsp;All</option>
+          <option>Link1</option>
+          <option>Link2</option>
+        </select>
+      </div>
+      <form class="form-inline my-2 my-sm-0"><input id="searchbutton" type="text" class="form-control filter1"
+          placeholder="Search Bukit for your favorites" aria-label="Input group example"
+          aria-describedby="btnGroupAddon">
+    </div>&emsp;</form>
+
+    <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
+    <ul class="navbar-nav px-4" id="nav-phone">
+      <li class="nav-item text-nowrap" id="icons-nav">
+        <img src="./assets/notification-bell.PNG" alt="" width="50px" height="45px">
+        <img src="./assets/notification-bag.PNG" alt="" width="55px" height="50px">
+        <img src="./assets/profile.PNG" alt="" width="50px" height="50px">
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+
+    <nav id="sidebarMenu" class=" col-lg-2 d-md-block  sidebar collapse">
+      <div class="sidebar-sticky pt-3" id="sidebarMenu">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="dashboard">
+              top categories
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/Capture.PNG" style="width: 30px; height: 24px;"></span>
+              clothing
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/as.PNG" style="width: 30px; height: 23px;"></span>
+              kitchen
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/d.PNG" style="width: 30px; height: 23px;"></span>
+              home & decor
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/asdw.PNG" style="width: 28px; height: 22px;"></span>
+              electronics
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/dfg.PNG" style="width: 30px; height: 23px;"></span>
+              entertainment
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/gf.PNG" style="width: 32px; height: 22px;"></span>
+              sports
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/sdf.PNG" style="width: 26px; height: 23px;"></span>
+              specials
+            </a>
+            <hr class="line">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sidetext" href="#">
+              <span><img src="./assets/ffff.PNG" style="width: 30px; height: 10px;"></span>
+              more
+            </a>
+            <hr class="line">
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="blue-box" style="margin-bottom:0; width: 610%;background-color: #7ccdce; height: 9px;"> </div>
+      <div class="black-box" style="margin:0; width: 610%;background-color: #221f1f;height: 251px;">
+        <!--  -->
+        <div class="row">
+          <form class="form" style="position: absolute;">
+            <img src="./assets/footer.PNG" height="90px" width="185px" class="footer-img1">
+          </form>
+          <div class="f1">
+            <p class="flegal">legal</p>
+            <p class="ftc">Terms and Conditions</p>
+            <p class="ftc">Privacy Policy</p>
+          </div>
+          <div class="f2">
+            <p class="flegal">about us</p>
+            <p class="ftc">Who We Are</p>
+            <p class="ftc">FAQ</p>
+          </div>
+          <div class="f3">
+            <p class="faceb"><img src="./assets/face.PNG" class="facebook">&nbsp;Facebook</p>          
+            <p class="faceb"><img src="./assets/twitter.PNG" class="facebook">&nbsp;Twitter</p>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="f4">
+            <p class="llc">2020 Bukit, LLC</p>
+            <hr class="fhr">
+            <p class="pbwi"><img src="./assets/fw.PNG" class="fw">&nbsp;Powered by  Wyred Insights</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="fakeimg">
+              <div class="add-img">
+                <div class="add-icon">
+                  &nbsp;&nbsp; &nbsp; &nbsp;<img src="./assets/plus.PNG" alt="" width="14px" height="14px">
+                  <br>
+                  Add Image
+                </div>
+              </div>
+              <div class="add-img-small">
+                <div class="add-icon-small">
+                  &nbsp;&nbsp; &nbsp; &nbsp;<img src="./assets/plus.PNG" alt="" width="14px" height="14px">
+                  <br>
+                  Add Image
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+            <div class="small-box">
+              <form class="form-inline">
+                <p class="Big-text">Add your product title here</p>
+                <img src="./assets/pencil.PNG" alt="" width="30px" height="30px" id="pencil">
+              </form>
+
+            </div>
+            <div class="right-box">
+              <p class="right-box-text">Attribute</p>
+              <div class="add-img-right">
+                <div class="add-icon-small">
+                  &nbsp;&nbsp; &nbsp; &nbsp;<img src="./assets/plus.PNG" alt="" width="14px" height="14px">
+                  <br>
+                  Add Attribute
+                </div>
+              </div>
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <hr>
+              <br>
+              <p id="price-text">Add price here <img src="./assets/pencil.PNG" alt="" height="35px" width="35px"></p>
+              <button type="button" class="btn" id="nextbutton"><img src="assets/Group 1894.png"
+                  style="position: absolute; left:5px; top:3px"></img>Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="bottom-box">
+              <p class="product-info">Product Info <img src="./assets/pencil.PNG" width="30px" alt="">&nbsp;<img
+                  src="./assets/Path 508.png" alt="">
+              <div class="small-block">
+                &emsp;&nbsp;<img src="./assets/plus.PNG" alt="" width="20px" height="20px"
+                  style="position: absolute; left: 10px; top: 10px;">&nbsp;<p
+                  style="position: absolute; left: 30px; top: 8px;font-family:Raleway,sans-serif">Add tab</p>
+              </div>
+              </p>
+              <div style="font-size: 16px;  line-height: 1.5; letter-spacing: 0.09px;">
+                <p style="position: absolute; top:140px;left:40px;font-family:Raleway,sans-serif;">Ambitioni dedisse
+                  scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu
+                  vulputate
+                  felis &emsp;&emsp;<a><img src="./assets/pencil.PNG" width="30px" alt=""></a>
+                <p style="position: absolute; top:160px;left:40px;font-family:Raleway,sans-serif;">rhoncus. Praeterea
+                  iter
+                  est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi
+                  concilium
+                </p>
+                <p style="position: absolute; top:180px;left:40px;font-family:Raleway,sans-serif;">totius Galliae in
+                  diem
+                  certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                <p style="position: absolute; top:240px;left:40px;font-family:Raleway,sans-serif;">Ambitioni dedisse
+                  scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu
+                  vulputate
+                  felis
+                <p style="position: absolute; top:260px;left:40px;font-family:Raleway,sans-serif;">rhoncus. Praeterea
+                  iter
+                  est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi
+                  concilium
+                </p>
+                <p style="position: absolute; top:280px;left:40px;font-family:Raleway,sans-serif;">totius Galliae in
+                  diem
+                  certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+
+      </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+      <script src="dashboard.js"></script>
+</body>
+
+</html>
